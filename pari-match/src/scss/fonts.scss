@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Parimatch';
+  font-weight: 500;
+  src: url('../fonts/Parimatch-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Parimatch';
+  font-weight: 400;
+  src: url('../fonts/ParimatchMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Parimatch';
+  font-weight: 300;
+  src: url('../fonts/Parimatch-Light.woff') format('woff');
+}
+
+$pariMatch: 'Parimatch';

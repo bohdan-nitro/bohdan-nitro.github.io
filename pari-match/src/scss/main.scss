@@ -1,0 +1,34 @@
+@import "fonts.scss";
+
+$backgroundColor: #f8ff13;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, span, a, li {
+  font-family: $pariMatch;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
