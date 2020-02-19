@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'Parimatch';
   font-weight: 500;
-  src: url("../fonts/Parimatch-Bold.woff") format("woff"); }
+  src: url("../src/fonts/Parimatch-Bold.woff") format("woff"); }
 
 @font-face {
   font-family: 'Parimatch';
   font-weight: 400;
-  src: url("../fonts/ParimatchMedium.woff") format("woff"); }
+  src: url("../src/fonts/ParimatchMedium.woff") format("woff"); }
 
 @font-face {
   font-family: 'Parimatch';
   font-weight: 300;
-  src: url("../fonts/Parimatch-Light.woff") format("woff"); }
+  src: url("../src/fonts/Parimatch-Light.woff") format("woff"); }
 
 * {
   margin: 0;
@@ -55,7 +55,7 @@ img {
     top: 0;
     left: 0; }
   .background::before {
-    background: url("../images/bg/background-over-responsive.png") no-repeat;
+    background: url("../src/images/bg/background-over-responsive.png") no-repeat;
     background-size: cover;
     z-index: 1; }
   .background::after {
@@ -70,11 +70,11 @@ img {
     left: 0;
     background-size: cover; }
     .background > div.dirt {
-      background: url("../images/bg/background-dirt.png") no-repeat;
+      background: url("../src/images/bg/background-dirt.png") no-repeat;
       background-size: cover;
       z-index: 3; }
     .background > div.bullets {
-      background: url("../images/bg/background-bullets.png") no-repeat;
+      background: url("../src/images/bg/background-bullets.png") no-repeat;
       background-size: cover;
       z-index: 4; }
     .background > div.pluses {
@@ -87,20 +87,20 @@ img {
           left: 50%;
           width: 422px;
           height: 15px;
-          background: url("../images/bg/pluses/top.png") no-repeat; }
+          background: url("../src/images/bg/pluses/top.png") no-repeat; }
         .background > div.pluses > div.left {
           width: 422px;
           height: 451px;
           top: 34%;
           left: 10.2%;
-          background: url("../images/bg/pluses/left.png") no-repeat; }
+          background: url("../src/images/bg/pluses/left.png") no-repeat; }
         .background > div.pluses > div.right {
           width: 422px;
           height: 480px;
           right: 12.5%;
           top: -1%;
           transform: translateX(50%);
-          background: url("../images/bg/pluses/right.png") no-repeat; }
+          background: url("../src/images/bg/pluses/right.png") no-repeat; }
     .background > div.persons {
       z-index: 6; }
       .background > div.persons .person {
@@ -196,7 +196,7 @@ img {
         left: 0;
         top: 135px;
         z-index: 2;
-        background: url("../images/text/icon-plus.png"); }
+        background: url("../src/images/text/icon-plus.png"); }
   .content .text .box-content .bonus-box {
     display: flex;
     flex-flow: column;
@@ -218,14 +218,14 @@ img {
         .content .text .box-content .bonus-box .glitches-wrap .glitches > div {
           position: absolute; }
           .content .text .box-content .bonus-box .glitches-wrap .glitches > div.first {
-            background: url("../images/text/icon-plus.png") no-repeat;
+            background: url("../src/images/text/icon-plus.png") no-repeat;
             background-size: cover;
             width: 10px;
             height: 10px;
             left: 450px;
             bottom: 15px; }
           .content .text .box-content .bonus-box .glitches-wrap .glitches > div.second {
-            background: url("../images/text/icon-plus.png") no-repeat;
+            background: url("../src/images/text/icon-plus.png") no-repeat;
             background-size: cover;
             width: 14px;
             height: 14px;
@@ -324,7 +324,7 @@ img {
     margin: 25px auto 45px; }
     .content .text .box-content .info-box::before {
       content: "";
-      background: url("../images/text/cross-1.png");
+      background: url("../src/images/text/cross-1.png");
       position: absolute;
       width: 15px;
       height: 15px;
@@ -394,7 +394,7 @@ img {
         right: 30px;
         width: 15px;
         height: 15px;
-        background-image: url("../images/text/icon-plus.png");
+        background-image: url("../src/images/text/icon-plus.png");
         z-index: 1; }
   .content .steps {
     margin-bottom: 8vh;
@@ -694,7 +694,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-720.png") no-repeat;
+    background: url("../src/images/header/logo-720.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 15px;
@@ -718,12 +718,12 @@ img {
   .background > div.pluses {
     display: none; }
   .background > div::before {
-    background: url("../images/bg/background-over-responsive.png");
+    background: url("../src/images/bg/background-over-responsive.png");
     object-fit: cover; }
   .background > div.bullets {
-    background: url("../images/bg/bullet-responsive.png"); }
+    background: url("../src/images/bg/bullet-responsive.png"); }
   .background > div.dirt {
-    background: url("../images/bg/dirt-7.png"); }
+    background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -934,7 +934,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-720.png") no-repeat;
+      background: url("../src/images/header/right-logo-720.png") no-repeat;
       position: absolute;
       left: 33%;
       top: 88%; }
@@ -1023,7 +1023,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo320.png") no-repeat;
+    background: url("../src/images/header/logo320.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -1057,12 +1057,12 @@ img {
     .background > div .pluses {
       display: none; }
     .background > div::before {
-      background: url("../images/bg/background-over-responsive.png");
+      background: url("../src/images/bg/background-over-responsive.png");
       object-fit: cover; }
     .background > div .bullets {
-      background: url("../images/bg/bullet-responsive.png") !important; }
+      background: url("../src/images/bg/bullet-responsive.png") !important; }
     .background > div .dirt {
-      background: url("../images/bg/dirt-7.png") !important; }
+      background: url("../src/images/bg/dirt-7.png") !important; }
   .header {
     display: none;
     flex-direction: column;
@@ -1291,7 +1291,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 33%;
       top: 88%; }
@@ -1449,7 +1449,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo320.png") no-repeat;
+    background: url("../src/images/header/logo320.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -1482,12 +1482,12 @@ img {
     .background > div .pluses {
       display: none; }
     .background > div::before {
-      background: url("../images/bg/background-over-responsive.png");
+      background: url("../src/images/bg/background-over-responsive.png");
       object-fit: cover; }
     .background > div .bullets {
-      background: url("../images/bg/bullet-responsive.png") !important; }
+      background: url("../src/images/bg/bullet-responsive.png") !important; }
     .background > div .dirt {
-      background: url("../images/bg/dirt-7.png") !important; }
+      background: url("../src/images/bg/dirt-7.png") !important; }
   .header {
     display: none;
     flex-direction: column;
@@ -1716,7 +1716,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 33%;
       top: 88%; }
@@ -1880,7 +1880,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-720.png") no-repeat;
+    background: url("../src/images/header/logo-720.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 15px;
@@ -1888,7 +1888,7 @@ img {
     left: 39%;
     height: 60px; }
   .background::before {
-    background: url("../images/bg/bg-ipad.png") no-repeat;
+    background: url("../src/images/bg/bg-ipad.png") no-repeat;
     object-fit: cover;
     background-size: cover; }
   .background > div.persons .person.pubg {
@@ -1909,14 +1909,14 @@ img {
   .background > div.pluses {
     display: none; }
   .background > div::before {
-    background: url("../images/bg/bg-ipad.png");
+    background: url("../src/images/bg/bg-ipad.png");
     object-fit: cover;
     background-size: cover; }
   .background > div.bullets {
-    background: url("../images/bg/bullet-768.png");
+    background: url("../src/images/bg/bullet-768.png");
     background-size: cover; }
   .background > div.dirt {
-    background: url("../images/bg/dirt-7.png"); }
+    background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -2119,7 +2119,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-720.png") no-repeat;
+      background: url("../src/images/header/right-logo-720.png") no-repeat;
       position: absolute;
       left: 33%;
       top: 89%; }
@@ -2215,7 +2215,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-320-420.png") no-repeat;
+    background: url("../src/images/header/logo-320-420.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -2248,12 +2248,12 @@ img {
     .background > div.pluses {
       display: none; }
     .background > div::before {
-      background: url("../images/bg/bg-over-320-420.png");
+      background: url("../src/images/bg/bg-over-320-420.png");
       object-fit: cover; }
     .background > div.bullets {
-      background: url("../images/bg/bullet-320-420.png"); }
+      background: url("../src/images/bg/bullet-320-420.png"); }
     .background > div.dirt {
-      background: url("../images/bg/dirt-7.png"); }
+      background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -2484,7 +2484,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 25%;
       top: 88%; }
@@ -2647,7 +2647,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-320-420.png") no-repeat;
+    background: url("../src/images/header/logo-320-420.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -2680,12 +2680,12 @@ img {
     .background > div.pluses {
       display: none; }
     .background > div::before {
-      background: url("../images/bg/bg-over-320-420.png");
+      background: url("../src/images/bg/bg-over-320-420.png");
       object-fit: cover; }
     .background > div.bullets {
-      background: url("../images/bg/bullet-320-420.png"); }
+      background: url("../src/images/bg/bullet-320-420.png"); }
     .background > div.dirt {
-      background: url("../images/bg/dirt-7.png"); }
+      background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -2916,7 +2916,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 25%;
       top: 88%; }
@@ -3078,7 +3078,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-320-420.png") no-repeat;
+    background: url("../src/images/header/logo-320-420.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -3111,12 +3111,12 @@ img {
     .background > div.pluses {
       display: none; }
     .background > div::before {
-      background: url("../images/bg/bg-over-320-420.png");
+      background: url("../src/images/bg/bg-over-320-420.png");
       object-fit: cover; }
     .background > div.bullets {
-      background: url("../images/bg/bullet-320-420.png"); }
+      background: url("../src/images/bg/bullet-320-420.png"); }
     .background > div.dirt {
-      background: url("../images/bg/dirt-7.png"); }
+      background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -3337,7 +3337,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 25%;
       top: 88%; }
@@ -3498,7 +3498,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-320-420.png") no-repeat;
+    background: url("../src/images/header/logo-320-420.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -3531,12 +3531,12 @@ img {
     .background > div.pluses {
       display: none; }
     .background > div::before {
-      background: url("../images/bg/bg-over-320-420.png");
+      background: url("../src/images/bg/bg-over-320-420.png");
       object-fit: cover; }
     .background > div.bullets {
-      background: url("../images/bg/bullet-320-420.png"); }
+      background: url("../src/images/bg/bullet-320-420.png"); }
     .background > div.dirt {
-      background: url("../images/bg/dirt-7.png"); }
+      background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -3759,7 +3759,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 28%;
       top: 84%; }
@@ -3920,7 +3920,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-320-420.png") no-repeat;
+    background: url("../src/images/header/logo-320-420.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -3953,12 +3953,12 @@ img {
     .background > div.persons.pluses {
       display: none; }
     .background > div.persons::before {
-      background: url("../images/bg/bg-over-320-420.png");
+      background: url("../src/images/bg/bg-over-320-420.png");
       object-fit: cover; }
     .background > div.persons.bullets {
-      background: url("../images/bg/bullet-320-420.png"); }
+      background: url("../src/images/bg/bullet-320-420.png"); }
     .background > div.persons.dirt {
-      background: url("../images/bg/dirt-7.png"); }
+      background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -4181,7 +4181,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 28%;
       top: 88%; }
@@ -4342,7 +4342,7 @@ img {
     max-width: 700px;
     margin: 0 auto; }
   .background .header-response {
-    background: url("../images/header/logo-320-420.png") no-repeat;
+    background: url("../src/images/header/logo-320-420.png") no-repeat;
     position: absolute;
     z-index: 10;
     top: 12px;
@@ -4375,12 +4375,12 @@ img {
     .background > div.persons.pluses {
       display: none; }
     .background > div.persons::before {
-      background: url("../images/bg/bg-over-320-420.png");
+      background: url("../src/images/bg/bg-over-320-420.png");
       object-fit: cover; }
     .background > div.persons.bullets {
-      background: url("../images/bg/bullet-320-420.png"); }
+      background: url("../src/images/bg/bullet-320-420.png"); }
     .background > div.persons.dirt {
-      background: url("../images/bg/dirt-7.png"); }
+      background: url("../src/images/bg/dirt-7.png"); }
   .header {
     display: none;
     flex-direction: column;
@@ -4603,7 +4603,7 @@ img {
     .responsive-section .container .prefooter-section {
       width: 100%;
       height: 100%;
-      background: url("../images/header/right-logo-320.png") no-repeat;
+      background: url("../src/images/header/right-logo-320.png") no-repeat;
       position: absolute;
       left: 25%;
       top: 88%; }
