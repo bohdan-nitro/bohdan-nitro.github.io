@@ -307,7 +307,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-720.png") no-repeat;
+      background: url("../src/images/header/logo-720.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 15px;
@@ -350,16 +350,16 @@
       }
 
       &::before {
-        background: url("../images/bg/background-over-responsive.png");
+        background: url("../src/images/bg/background-over-responsive.png");
         object-fit: cover;
       }
 
       &.bullets {
-        background: url("../images/bg/bullet-responsive.png");
+        background: url("../src/images/bg/bullet-responsive.png");
       }
 
       &.dirt {
-        background: url("../images/bg/dirt-7.png");
+        background: url("../src/images/bg/dirt-7.png");
       }
     }
 
@@ -723,7 +723,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-720.png") no-repeat;
+        background: url("../src/images/header/right-logo-720.png") no-repeat;
         position: absolute;
         left: 33%;
         top: 88%;
@@ -886,7 +886,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo320.png") no-repeat;
+      background: url("../src/images/header/logo320.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -936,16 +936,16 @@
       }
 
       &::before {
-        background: url("../images/bg/background-over-responsive.png");
+        background: url("../src/images/bg/background-over-responsive.png");
         object-fit: cover;
       }
 
       .bullets {
-        background: url("../images/bg/bullet-responsive.png") !important;
+        background: url("../src/images/bg/bullet-responsive.png") !important;
       }
 
       .dirt {
-        background: url("../images/bg/dirt-7.png") !important;
+        background: url("../src/images/bg/dirt-7.png") !important;
       }
 
     }
@@ -1327,7 +1327,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 33%;
         top: 88%;
@@ -1602,7 +1602,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo320.png") no-repeat;
+      background: url("../src/images/header/logo320.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -1651,16 +1651,16 @@
       }
 
       &::before {
-        background: url("../images/bg/background-over-responsive.png");
+        background: url("../src/images/bg/background-over-responsive.png");
         object-fit: cover;
       }
 
       .bullets {
-        background: url("../images/bg/bullet-responsive.png") !important;
+        background: url("../src/images/bg/bullet-responsive.png") !important;
       }
 
       .dirt {
-        background: url("../images/bg/dirt-7.png") !important;
+        background: url("../src/images/bg/dirt-7.png") !important;
       }
 
     }
@@ -2045,7 +2045,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 33%;
         top: 88%;
@@ -2336,7 +2336,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-720.png") no-repeat;
+      background: url("../src/images/header/logo-720.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 15px;
@@ -2346,7 +2346,7 @@
 
     }
     &::before {
-      background: url("../images/bg/bg-ipad.png") no-repeat;
+      background: url("../src/images/bg/bg-ipad.png") no-repeat;
       object-fit: cover;
       background-size: cover;
     }
@@ -2385,18 +2385,18 @@
       }
 
       &::before {
-        background: url("../images/bg/bg-ipad.png");
+        background: url("../src/images/bg/bg-ipad.png");
         object-fit: cover;
         background-size: cover;
       }
 
       &.bullets {
-        background: url("../images/bg/bullet-768.png");
+        background: url("../src/images/bg/bullet-768.png");
         background-size: cover;
       }
 
       &.dirt {
-        background: url("../images/bg/dirt-7.png");
+        background: url("../src/images/bg/dirt-7.png");
       }
     }
 
@@ -2598,8 +2598,7 @@
           max-height: 63px;
           margin-top: 285px;
           max-width: 270px;
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 216px;
 
           &::before {
             left: calc(50% - 4px);
@@ -2748,7 +2747,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-720.png") no-repeat;
+        background: url("../src/images/header/right-logo-720.png") no-repeat;
         position: absolute;
         left: 33%;
         top: 89%;
@@ -2922,7 +2921,7 @@
 
     .background {
       .header-response {
-        background: url("../images/header/logo-320-420.png") no-repeat;
+        background: url("../src/images/header/logo-320-420.png") no-repeat;
         position: absolute;
         z-index: 10;
         top: 12px;
@@ -2972,16 +2971,16 @@
         }
 
         &::before {
-          background: url("../images/bg/bg-over-320-420.png");
+          background: url("../src/images/bg/bg-over-320-420.png");
           object-fit: cover;
         }
 
         &.bullets {
-          background: url("../images/bg/bullet-320-420.png");
+          background: url("../src/images/bg/bullet-320-420.png");
         }
 
         &.dirt {
-          background: url("../images/bg/dirt-7.png");
+          background: url("../src/images/bg/dirt-7.png");
         }
 
       }
@@ -3365,7 +3364,7 @@
         .prefooter-section {
           width: 100%;
           height: 100%;
-          background: url("../images/header/right-logo-320.png") no-repeat;
+          background: url("../src/images/header/right-logo-320.png") no-repeat;
           position: absolute;
           left: 25%;
           top: 88%;
@@ -3652,7 +3651,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-320-420.png") no-repeat;
+      background: url("../src/images/header/logo-320-420.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -3702,16 +3701,16 @@
       }
 
       &::before {
-        background: url("../images/bg/bg-over-320-420.png");
+        background: url("../src/images/bg/bg-over-320-420.png");
         object-fit: cover;
       }
 
       &.bullets {
-        background: url("../images/bg/bullet-320-420.png");
+        background: url("../src/images/bg/bullet-320-420.png");
       }
 
       &.dirt {
-        background: url("../images/bg/dirt-7.png");
+        background: url("../src/images/bg/dirt-7.png");
       }
 
     }
@@ -3918,8 +3917,7 @@
           max-height: 35px;
           margin-top: 143px;
           max-width: 150px;
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 23%;
 
           &::before {
             left: calc(50% - 4px);
@@ -4096,7 +4094,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 25%;
         top: 88%;
@@ -4377,7 +4375,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-320-420.png") no-repeat;
+      background: url("../src/images/header/logo-320-420.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -4426,16 +4424,16 @@
       }
 
       &::before {
-        background: url("../images/bg/bg-over-320-420.png");
+        background: url("../src/images/bg/bg-over-320-420.png");
         object-fit: cover;
       }
 
       &.bullets {
-        background: url("../images/bg/bullet-320-420.png");
+        background: url("../src/images/bg/bullet-320-420.png");
       }
 
       &.dirt {
-        background: url("../images/bg/dirt-7.png");
+        background: url("../src/images/bg/dirt-7.png");
       }
 
     }
@@ -4808,7 +4806,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 25%;
         top: 88%;
@@ -5088,7 +5086,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-320-420.png") no-repeat;
+      background: url("../src/images/header/logo-320-420.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -5137,16 +5135,16 @@
       }
 
       &::before {
-        background: url("../images/bg/bg-over-320-420.png");
+        background: url("../src/images/bg/bg-over-320-420.png");
         object-fit: cover;
       }
 
       &.bullets {
-        background: url("../images/bg/bullet-320-420.png");
+        background: url("../src/images/bg/bullet-320-420.png");
       }
 
       &.dirt {
-        background: url("../images/bg/dirt-7.png");
+        background: url("../src/images/bg/dirt-7.png");
       }
 
     }
@@ -5356,8 +5354,7 @@
           max-height: 43px;
           margin-top: 160px;
           max-width: 180px;
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 23%;
 
           &::before {
             left: calc(50% - 4px);
@@ -5522,7 +5519,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 28%;
         top: 84%;
@@ -5801,7 +5798,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-320-420.png") no-repeat;
+      background: url("../src/images/header/logo-320-420.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -5849,16 +5846,16 @@
         }
 
         &::before {
-          background: url("../images/bg/bg-over-320-420.png");
+          background: url("../src/images/bg/bg-over-320-420.png");
           object-fit: cover;
         }
 
         &.bullets {
-          background: url("../images/bg/bullet-320-420.png");
+          background: url("../src/images/bg/bullet-320-420.png");
         }
 
         &.dirt {
-          background: url("../images/bg/dirt-7.png");
+          background: url("../src/images/bg/dirt-7.png");
         }
 
       }
@@ -6069,8 +6066,7 @@
           max-height: 43px;
           margin-top: 200px;
           max-width: 180px;
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 23%;
 
           &::before {
             left: calc(50% - 4px);
@@ -6234,7 +6230,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 28%;
         top: 88%;
@@ -6513,7 +6509,7 @@
 
   .background {
     .header-response {
-      background: url("../images/header/logo-320-420.png") no-repeat;
+      background: url("../src/images/header/logo-320-420.png") no-repeat;
       position: absolute;
       z-index: 10;
       top: 12px;
@@ -6561,16 +6557,16 @@
         }
 
         &::before {
-          background: url("../images/bg/bg-over-320-420.png");
+          background: url("../src/images/bg/bg-over-320-420.png");
           object-fit: cover;
         }
 
         &.bullets {
-          background: url("../images/bg/bullet-320-420.png");
+          background: url("../src/images/bg/bullet-320-420.png");
         }
 
         &.dirt {
-          background: url("../images/bg/dirt-7.png");
+          background: url("../src/images/bg/dirt-7.png");
         }
 
       }
@@ -6781,8 +6777,7 @@
           max-height: 43px;
           margin-top: 190px;
           max-width: 180px;
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 23%;
 
           &::before {
             left: calc(50% - 4px);
@@ -6946,7 +6941,7 @@
       .prefooter-section {
         width: 100%;
         height: 100%;
-        background: url("../images/header/right-logo-320.png") no-repeat;
+        background: url("../src/images/header/right-logo-320.png") no-repeat;
         position: absolute;
         left: 25%;
         top: 88%;
